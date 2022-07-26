@@ -1,0 +1,13 @@
+{
+  "root": true,
+  "env": {
+    "node": true,
+    "es2020": true
+  },
+  "extends": "airbnb-base",
+  "rules": {
+    "no-await-in-loop": 0,
+    "no-use-before-define": 0,
+    "no-restricted-syntax": 0
+  }
+}

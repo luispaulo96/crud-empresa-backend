@@ -1,0 +1,28 @@
+{
+  "name": "crud-empresa-backend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/app.js",
+    "migrate": "node-pg-migrate"
+  },
+  "dependencies": {
+    "bcryptjs": "~2.4.0",
+    "cookie-parser": "~1.4.0",
+    "cors": "~2.8.0",
+    "debug": "~4.3.0",
+    "dotenv": "~16.0.0",
+    "express": "~4.18.0",
+    "helmet": "~5.1.0",
+    "jsonwebtoken": "~8.5.0",
+    "morgan": "~1.10.0",
+    "node-pg-migrate": "~6.2.0",
+    "pg": "~8.7.0",
+    "winston": "~3.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
